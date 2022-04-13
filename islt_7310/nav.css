@@ -1,14 +1,12 @@
 nav{
     top: 0;
-    right: 0;
-    left: 0;
-    width: 100% !important;
-    text-align: center;
     background-color: #348990;
+    border: 1px solid white;
 }
 
 nav ul{
     list-style-type: none;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: flex-start;
@@ -17,9 +15,10 @@ nav ul{
 nav > ul li{
     position: relative;
     background-color: #348990;
+    text-align: center;
     color: white;
-    width: 150px;
     float: left;
+    width: 150px;
 }
 
 nav a{
@@ -27,10 +26,30 @@ nav a{
     color: white;
     font-size: 20px;
     display: inline-block;
-    width: 150px;
-    padding: 30px 25px 30px 25px;
+    padding: 30px 30px 30px 30px;
 }
 
+nav a:link{
+    background-color: #348990;
+}
+nav a:hover, nav a:focus {
+    background-color: rgb(106, 106, 105);
+}
+nav a:active{
+    background-color: rgb(32, 74, 84);
+}
 
+nav ul>li ul {
+    position: absolute;
+    top: 0;
+    margin-left: 100%;
+    display: block;
+}
+nav ul ul li {
+    float:none;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
 
 
