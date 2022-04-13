@@ -1,11 +1,20 @@
+nav{
+    background-color: #348990;
+}
 body{
-    background-color: skyblue;
+    background-color: #86DDE4;
 }
 header{
     text-align: center;
 }
 h1{
     color: #330099;
+}
+img {
+    height: 250px;
+}
+.about{
+    color:black;
 }
 main{
     text-align: center;
