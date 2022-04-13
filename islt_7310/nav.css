@@ -1,7 +1,8 @@
 nav{
     background-color: #348990;
-    margin-top: 0px;
+    margin-top: 0px !important;
     color: white;
+    width: 100% !important;
 }
 
 ul li{
@@ -21,15 +22,20 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    width: 150px;
 }
 
 nav ul li ul{
-    display: block;
+    display: none;
     position: absolute;
     text-decoration: none;
+    background-color: #348990;
+}
+
+nav ul li ul li{
     color: white;
     font-size: 20px;
-    background-color: #348990;
+    padding: 35px 35px 35px 35px;
 }
 
 
