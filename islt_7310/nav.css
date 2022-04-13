@@ -1,41 +1,36 @@
 nav{
-    background-color: #348990;
-    margin-top: 0px !important;
-    color: white;
+    top: 0;
+    right: 0;
+    left: 0;
     width: 100% !important;
-}
-
-ul li{
-    background-color: #348990;
-    margin-top: 0px;
-    color: white;
-    padding: 35px 35px 35px 35px;
-    border: none;
-    display: inline-block;
-    list-style-type: none;
     text-align: center;
-    width: 150px;
-    text-decoration: none;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    width: 150px;
-}
-
-nav ul li ul{
-    display: none;
-    position: absolute;
-    text-decoration: none;
     background-color: #348990;
 }
 
-nav ul li ul li{
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav > ul li{
+    position: relative;
+    background-color: #348990;
+    color: white;
+    width: 150px;
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 35px 35px 35px 35px;
+    display: inline-block;
+    width: 150px;
+    padding: 30px 25px 30px 25px;
 }
+
+
 
 
