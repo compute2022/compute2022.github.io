@@ -40,9 +40,11 @@ nav a:active{
 }
 
 nav ul li ul {
-    position: absolute;
     top: 0;
-    margin-left: 100%;
+    display: none;
+}
+
+nav ul li:hover ul{
     display: block;
 }
 
@@ -50,8 +52,5 @@ nav ul li ul a{
     padding: 30px 30px 30px 30px;
 }
 
-nav>ul>li:hover>ul{
-    display: block;
-}
 
 
