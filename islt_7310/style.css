@@ -10,11 +10,21 @@ h1{
 img {
     height: 250px;
 }
+#indent1, #indent2, #indent3{
+    text-indent: 3cm;
+}
+.reflect_1::first-letter{
+    font-size: 220%;
+    font-style: italic;
+}
 .about{
     color:black;
 }
 main{
     text-align: center;
+}
+.reflections{
+    text-align: left;
 }
 footer{
     text-align: center;
