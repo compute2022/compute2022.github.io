@@ -9,7 +9,9 @@ header{
     text-align: center;
 }
 h1{
-    color: #330099;
+    color:black;
+    text-align: center;
+    margin-top: 3em;
 }
 h3{
     font-style: italic;
@@ -28,10 +30,7 @@ img {
     font-size: 220%;
     font-style: italic;
 }
-.about{
-    color:black;
-    text-align: center;
-}
+
 main{
     text-align: center;
 }
@@ -48,16 +47,16 @@ a{
     text-align: left;
 }
 footer{
-    margin-top: auto;
+    margin-top: auto 0;
     text-align: center;
     color: white;
     left: 0;
+    right: 0%;
     bottom: 0;
     width: 100%;
     background-color: rgb(77, 74, 74);
     height: 5em;
-    border-top: 1px solid white;
-    grid-column: 1 / -1;
+    border: 1px solid white;
 }
 footer a{
     color: white;
