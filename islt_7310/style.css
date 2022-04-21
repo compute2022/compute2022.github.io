@@ -1,5 +1,9 @@
 body{
     background-color: #86DDE4;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     text-align: center;
@@ -7,8 +11,15 @@ header{
 h1{
     color: #330099;
 }
+h3{
+    font-style: italic;
+    text-decoration: underline;
+}
 img {
     height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #indent1, #indent2, #indent3{
     text-indent: 3cm;
@@ -19,13 +30,35 @@ img {
 }
 .about{
     color:black;
+    text-align: center;
 }
 main{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+a{
+    color: blue;
+}
+.credentials{
     text-align: center;
 }
 .reflections{
     text-align: left;
 }
 footer{
+    margin-top: auto;
     text-align: center;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(77, 74, 74);
+    height: 5em;
+    border-top: 1px solid white;
+    grid-column: 1 / -1;
+}
+footer a{
+    color: white;
 }
