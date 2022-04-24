@@ -5,15 +5,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 550px) {
-    p{
-        font-size: 1.2em;
-        line-height: 1.4;
-    }
-    img{
-        height: 240px;
-    }
-}
+
 header{
     text-align: center;
 }
@@ -54,6 +46,21 @@ a{
 }
 .reflections{
     text-align: left;
+}
+@media (min-width: 550px) {
+    p{
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+    img{
+        height: 240px;
+    }
+    h1{
+        color: black;
+    }
+    h3{
+        color: black;
+    }
 }
 footer{
     margin-top: auto 0;
