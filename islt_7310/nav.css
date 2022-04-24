@@ -65,10 +65,9 @@ nav ul li ul a{
     top: 0;
   }
 
-  #hamnav {
+  #nav_ham {
     width: 100%;
     background: teal;
-    /* Optional */
     position: sticky;
     top: 0;
   }
