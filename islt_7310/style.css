@@ -5,6 +5,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+@media (min-width: 550px) {
+    p{
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+}
 header{
     text-align: center;
 }

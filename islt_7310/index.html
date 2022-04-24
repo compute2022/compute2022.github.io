@@ -10,20 +10,24 @@ School/Term:  Mizzou University, Spring 2022
 
 Developed: Mar 27, 2022
 
-Modified/Tested:  Apr 18, 2022; Passed on Safari and Chrome browsers.
+Modified/Tested:  Apr 24, 2022; Passed on Safari and Chrome browsers.
 
 ******************************************************************************-->
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="nav.css">
     </head>
 
     <body>
-        <nav>
+        <nav id="nav_ham">
+            <div id="hamburgeritems">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -37,6 +41,7 @@ Modified/Tested:  Apr 18, 2022; Passed on Safari and Chrome browsers.
                 <li><a href="reflection.html">Reflections</a><li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </div>
         </nav>
 
         <header>

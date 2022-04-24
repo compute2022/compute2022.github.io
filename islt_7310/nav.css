@@ -14,7 +14,7 @@ nav ul{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
 }
 
 nav > ul li{
@@ -23,7 +23,7 @@ nav > ul li{
     text-align: center;
     color: white;
     float: left;
-    width: 170px;
+    width: 150px;
 }
 
 nav a{
@@ -31,7 +31,7 @@ nav a{
     color: white;
     font-size: 20px;
     display: inline-block;
-    padding: 30px 53px 30px 53px;
+    padding: 20px 40px 20px 40px;
 }
 
 nav a:link{
@@ -51,11 +51,60 @@ nav ul li ul {
 
 nav ul li:hover ul{
     display: block;
+    width: 2px;
 }
 
 nav ul li ul a{
-    padding: 30px 53px 30px 53px;
+    padding: 20px 40px 20px 40px;
 }
 
+#nav_ham {
+    width: 100%;
+    background: darkslategray;
+    position: sticky;
+    top: 0;
+  }
 
+  #hamnav {
+    width: 100%;
+    background: teal;
+    /* Optional */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {display: inline;
+      text-align: center;
+      padding: 10px;
+    }
+  #hamburgeritems { display: flex; }
+  #hamburgeritems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+  }
+  #hamburgeritems a:hover { background: rgb(106, 106, 105); }
+  #nav_ham label, #hamburger { display: none; }
+  @media screen and (max-width: 760px){
 
+    #hamburgeritems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+  
+    #nav_ham label {
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      background: #034f4e;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+
+#hamburgeritems { display: none; }
+  #nav_ham input:checked ~ #hamburgeritems { display: block; }}
