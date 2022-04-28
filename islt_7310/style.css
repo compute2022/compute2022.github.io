@@ -38,7 +38,9 @@ main{
 p{
     text-align: left;
 }
-
+a{
+    color: blue;
+}
 .credentials{
     text-align: center;
 }
