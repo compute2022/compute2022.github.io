@@ -14,6 +14,11 @@ h1{
     text-align: center;
     margin-top: 0.5em;
 }
+h4{
+    text-align: left;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
 h3{
     font-style: italic;
     text-decoration: underline;
@@ -40,6 +45,19 @@ p{
 }
 a{
     color: blue;
+}
+.education{
+    text-align: left;
+}
+.education ul{
+    margin:0;
+    padding: 0;
+}
+.education ul li{
+    margin-left: 0;
+}
+#REU{
+    text-align: left;
 }
 iframe{
     width:"640px";

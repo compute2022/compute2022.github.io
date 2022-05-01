@@ -10,7 +10,7 @@ School/Term:  Mizzou University, Spring 2022
 
 Developed: Apr 28, 2022
 
-Modified/Tested:  Apr 28, 2022; Passed on Safari and Chrome browsers.
+Modified/Tested:  May 1, 2022; Passed on Safari and Chrome browsers.
 
 ******************************************************************************-->
 
@@ -19,7 +19,7 @@ Modified/Tested:  Apr 28, 2022; Passed on Safari and Chrome browsers.
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About</title>
+        <title>Undergraduate Research</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
@@ -40,7 +40,7 @@ Modified/Tested:  Apr 28, 2022; Passed on Safari and Chrome browsers.
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Projects</a>
                     <ul>
-                        <li><a href="undergraduate_research.html">Undergraduate Research</a></li>
+                        <li class="active"><a href="undergraduate_research.html">Undergraduate Research</a></li>
                         <li><a href="school_project.html">School Projects</a></li>
                     </ul>
                 </li>
@@ -52,12 +52,57 @@ Modified/Tested:  Apr 28, 2022; Passed on Safari and Chrome browsers.
 
         <header>
         <h1>Sleep Stage Classification Using Non-Invasive Bed Sensing and Deep Learning</h1>
-        <img src="HT_About.JPG" alt="Profile Pic">
+        <img src="2021REU.gif" alt="REU Logo Pic">
         <h3>2021 Consumer Networking Technologies REU (Research Experiences for Undergraduates)</h3>
         </header>
 
         <main>
-
+            <p>
+                In the summer of 2021, I, along with 9 other undergraduate students, were selected to partake in an annual Research Experiences
+                for Undergraduates (REU) program sponsored by the National Science Foundation (NSF) called Consumer Networking Technologies.
+                I participated in this 10-week program supported by NSF where I engaged, as part of an undergraduate research team, in a scientific research project 
+                in which we evaluated Sleep Stage classification using Deep Learning. Our motivation was to provide an automatic, non-invasive, and more accessible 
+                method of classifying sleep stages by gathering data from the hydraulic bed sensor and analyzing the data via a deep learning approach.
+            </p>
+            <div id="REU">
+        <h4>Research</h4>
+        <ul>
+            <li>Conducted literary reviews of previously conducted sleep studies to deepen my understanding of PSG, 
+                deep learning techniques, and neural networks.</li><br>
+            <li>Developed a keen understanding of laboratory methods, which included literary review, documentation, 
+                research documentation, IRB training.</li><br>
+            <li>Attended presentations to learn more about undergraduate research and 
+                the academic environment. Submitted an abstract to 2021 IEEE BIBM Virtual Conference: 
+                Sleep Stage Classification Using Non-Invasive Bed Sensing and Deep Learning.</li><br>
+        </ul>
+        <h4>Experiments</h4>
+        <ul>
+            <li>Compiled data gathered from hydraulic bed sensors using Jupyter Notebook and Python programming.</li><br>
+            <li>Used a Convolutional Neural Network (CNN)- Long-Short Term Memory (LSTM) hybrid model with 2 CNNs of different filter sizes for feature extraction. 
+                These features are then fed into the LSTM for classification.</li><br>
+            <li>Then we compared our findings to the gold standard for sleep monitoring: Polysomnography (PSG). 
+                PSG is a comprehensive study of biological data gathered from test subjects using various sensors.</li><br>
+        </ul></div>
+        <h4>Advisors: Dr. Marjorie Skubic<br>
+        Graduate Student Mentors: Ruhan Yi<br>
+        Research Students: Hosanna Tesfaye, Kelly Ryoo, Nikhil Vyas</h4>
+       <p> Abstract: Sleep stage classification can be used to monitor sleep quality and diagnose sleep disorders. 
+Sleep disorders can be correlated to health conditions such as Alzheimer's and Parkinson's disease. This project 
+uses a hydraulic bed sensor positioned under the mattress, as well as a deep learning approach, for sleep stage 
+classification. Our motivation is to provide an automatic, non-invasive and more accessible method of classifying 
+sleep stages by using deep learning to analyze data gathered from the hydraulic bed sensor. The test subjects for 
+this project were elderly patients with sleep disorders. Polysomnography (PSG) data, the current gold standard, was 
+also collected in a Sleep Lab to serve as the ground truth for the bed sensor data. In this study, sleep stages are 
+categorized into 3 categories: Wake, Rapid Eye Movement (REM), and Non-Rapid Eye Movement (NREM). This paper uses a 
+Convolutional Neural Network (CNN)- Long-Short Term Memory (LSTM) hybrid model with 2 CNNs of different filter sizes 
+for feature extraction. These features are then fed into the LSTM for classification. Our results show an average 
+accuracy of about 75.5% using leave one subject out cross validation. These results are promising and show that the 
+hydraulic bed sensor combined with a deep learning approach is capable of providing an automatic and non-invasive method 
+of classifying sleep stages.
+            </p>
+            <p>If you'd like to take a look at our digital poster of our research, 
+                <a href="https://dl.mospace.umsystem.edu/mu/islandora/object/mu%3A428900" target="_blank">click this link!</a></p>
+            <p><a href="project.html">Back to Projects Page</a></p>
         </main>
         <footer>
             Author: Hosanna Tesfaye<br>

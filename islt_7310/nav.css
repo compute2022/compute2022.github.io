@@ -1,6 +1,8 @@
 nav{
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     background-color: #348990;
     border: 1px solid white;
@@ -31,14 +33,14 @@ nav a{
     padding: 20px 40px 20px 40px;
 }
 
-nav a:link{
-    background-color: #348990;
+.active a:link{
+    background-color: #424242;
 }
 nav a:hover, nav a:focus {
     background-color: rgb(106, 106, 105);
 }
 nav a:active{
-    background-color: rgb(32, 74, 84);
+    background-color: rgb(14, 65, 78);
 }
 
 nav ul li ul {
