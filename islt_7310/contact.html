@@ -1,26 +1,27 @@
 <!-- *****************************************************************************
 
-Title:  Home Page
+Title:  Contact Page
 
-Use:  To welcome users who enter this page, and give hte goals/purpose of the website.
+Use:  To give users various methods of reaching out to me.
 
 Author:  Hosanna Tesfaye
 
 School/Term:  Mizzou University, Spring 2022
 
-Developed: Mar 27, 2022
+Developed: May 4, 2022
 
 Modified/Tested:  May 4, 2022; Passed on Safari and Chrome browsers.
 
 ******************************************************************************-->
+
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="nav.css">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
 
         <!-- Google Font: Roboto Stylesheet-->
@@ -31,11 +32,11 @@ Modified/Tested:  May 4, 2022; Passed on Safari and Chrome browsers.
 
     <body>
         <nav id="nav_ham">
-            <div id="hamburgeritems">
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger"/>
+            <div id="hamburgeritems">
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Projects</a>
                     <ul>
@@ -44,25 +45,30 @@ Modified/Tested:  May 4, 2022; Passed on Safari and Chrome browsers.
                     </ul>
                 </li>
                 <li><a href="reflection.html">Reflections</a><li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         </nav>
 
-        <header>
-            <h1>Home</h1>
-            <img src="E-weekPhoto.JPG" alt="Friendly face">
-            <h3>Nice to meet you!</h3>
+        <header id="contacts">
+        <h1>Contacts</h1>
+        <img src="MyrtleBeach.jpg" alt="Profile Pic">
+        <h3>Wish to reach me?</h3>
         </header>
 
-        <main> 
-        <p>
-            My name is Hosanna Tesfaye, and I am an undergraduate senior studying Information Technology 
-            at the University of Missouri-Columbia. The purpose of this website is to give an overview of my skillset, 
-            experiences in the workforce, my certifications, and my education. This portfolio is a way for me to connect
-            with you who may be reading this site, and hopefully demonstrate to those who are interested why I may be a 
-            capable worker in your workspace/company.
-        </p>
+        <main>
+            <form method="post" action="mailto:hhthk7@umsystem.edu?Subject=Portfolio/Professional%20Website%20Contact">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="lname" placeholder="Enter your first name." required><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name." required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email." required><br>
+                Please type your message here.<br>
+                <textarea placeholder="Comments" required></textarea><br>
+                <input type="submit">
+            </form>
+
     </main>
 
     <footer>
@@ -73,3 +79,4 @@ Modified/Tested:  May 4, 2022; Passed on Safari and Chrome browsers.
         &copy; Copyright 2022 Hosanna Tesfaye's Portfolio
     </footer>
     </body>
+</html>

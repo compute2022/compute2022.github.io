@@ -64,6 +64,9 @@ iframe{
     height:"480px";
     border: 0.2px solid black;
 }
+#contacts{
+    text-align: center;
+}
 .credentials{
     text-align: center;
 }
@@ -114,7 +117,13 @@ footer{
     h3{
         color: black;
     }
-
+    form{
+        align-content: center;
+        text-align: center;
+    }
+    #contacts{
+        text-align: center;
+    }
 }
 @media print {
     body{
