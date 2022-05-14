@@ -17,28 +17,7 @@ Modified/Tested:  May 13, 2022; Passed on Safari and Chrome browsers.
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <script>
-            var counterContainer = document.querySelector(".website-counter");
-            var resetButton = document.querySelector("#reset");
-            var visitCount = localStorage.getItem("page_view");
-
-// Check if page_view entry is present
-        if (visitCount) {
-            visitCount = Number(visitCount) + 1;
-            localStorage.setItem("page_view", visitCount);
-        } else {
-            visitCount = 1;
-            localStorage.setItem("page_view", 1);
-            }
-            counterContainer.innerHTML = visitCount;
-
-// Adding onClick event listener
-            resetButton.addEventListener("click", () => {
-            visitCount = 1;
-            localStorage.setItem("page_view", 1);
-            counterContainer.innerHTML = visitCount;
-            });
-        </script>
+        <script defer src="index.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="style.css">

@@ -6,6 +6,12 @@ body{
     flex-direction: column;
 }
 
+body .website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .website-counter {
     background-color: #123738;
     height: 50px;
